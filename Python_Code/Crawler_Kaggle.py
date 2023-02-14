@@ -19,13 +19,13 @@ def fetch():
     login_button.click()
 
     mail_input = driver.find_element_by_xpath('/html/body/main/div/div[1]/div/form/div[2]/div[1]/div/div/input')
-    mail_input.send_keys('testseleniumhslu@hotmail.com')
+    mail_input.send_keys('+++++++++++++')
 
 
     mail_paswortd = driver.find_element_by_xpath('/html/body/main/div/div[1]/div/form/div[2]/div[2]/div/div/input')
     time.sleep(2)
     mail_paswortd.click()
-    mail_paswortd.send_keys('TestHSLU')
+    mail_paswortd.send_keys('++++++')
 
     time.sleep(2)
 
